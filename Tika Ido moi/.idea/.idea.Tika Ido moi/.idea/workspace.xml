@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48566278-244d-49e3-b6c4-29d5d149305a" name="Default Changelist" comment="" />
+    <list default="true" id="48566278-244d-49e3-b6c4-29d5d149305a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/HeroSuperLight.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
-              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding>
                 <marker date="1548509009101" expanded="true" signature="63:730" ph="{...}" />
                 <marker date="1548509009101" expanded="true" signature="219:285" ph="{...}" />
@@ -185,12 +187,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548436358595</updated>
       <workItem from="1548436374362" duration="10615000" />
-      <workItem from="1548505536809" duration="1908000" />
+      <workItem from="1548505536809" duration="2515000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12523000" />
+    <option name="totallyTimeSpent" value="13130000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -327,7 +329,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/HeroSuperLight.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding>
             <marker date="1548509009101" expanded="true" signature="63:730" ph="{...}" />
             <marker date="1548509009101" expanded="true" signature="219:285" ph="{...}" />
