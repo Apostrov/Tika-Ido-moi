@@ -7,6 +7,7 @@ public class DoorOpen : MonoBehaviour
     private bool _showGUI;
     private Animator _animator;
     private BoxCollider _boxCollider;
+    private ManySongs _manySongs;
     
     // public GameObject hero;
     public bool isClosed = false;
@@ -16,6 +17,7 @@ public class DoorOpen : MonoBehaviour
         _showGUI = false;
         _animator = GetComponentInChildren<Animator>();
         _boxCollider = GetComponent<BoxCollider>();
+        _manySongs = GetComponent<ManySongs>();
     }
     private void OnGUI()
     {
@@ -36,7 +38,7 @@ public class DoorOpen : MonoBehaviour
         {
             if (isClosed)
             {
-                // closed sound
+                _manySongs.playSound();
             }
             else
             {
@@ -48,7 +50,6 @@ public class DoorOpen : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        Debug.Log(other.GetType());
         _showGUI = false;
     }
 
