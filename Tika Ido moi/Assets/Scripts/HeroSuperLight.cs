@@ -16,13 +16,16 @@ public class HeroSuperLight : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            blackHole.transform.localScale += new Vector3(0.5f, 0.5f, 0);
+            
         }
         
         if (blackHole.transform.localScale.x > _orginScale.x)
         {
             var speed = 1 / decreasingSpeed * Time.deltaTime;
             blackHole.transform.localScale -= new Vector3(speed, speed, 0);
+        } else if (Input.GetKeyDown(KeyCode.Space))
+        {
+            blackHole.transform.localScale += new Vector3(0.5f, 0.5f, 0);
         }
     }
     

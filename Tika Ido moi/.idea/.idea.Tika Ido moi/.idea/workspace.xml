@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="48566278-244d-49e3-b6c4-29d5d149305a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HeroSuperLight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HeroSuperLight.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,14 +61,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/HeroSuperLight.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="401">
+              <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
               <folding>
-                <marker date="1548509009101" expanded="true" signature="63:730" ph="{...}" />
-                <marker date="1548509009101" expanded="true" signature="219:285" ph="{...}" />
-                <marker date="1548509009101" expanded="true" signature="343:723" ph="{...}" />
-                <marker date="1548509009101" expanded="true" signature="394:488" ph="{...}" />
-                <marker date="1548509009101" expanded="true" signature="559:717" ph="{...}" />
+                <marker date="1548513019853" expanded="true" signature="63:805" ph="{...}" />
+                <marker date="1548513019853" expanded="true" signature="219:285" ph="{...}" />
+                <marker date="1548513019853" expanded="true" signature="343:798" ph="{...}" />
+                <marker date="1548513019853" expanded="true" signature="394:427" ph="{...}" />
+                <marker date="1548513019853" expanded="true" signature="498:656" ph="{...}" />
+                <marker date="1548513019853" expanded="true" signature="698:792" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -187,12 +190,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548436358595</updated>
       <workItem from="1548436374362" duration="10615000" />
-      <workItem from="1548505536809" duration="2515000" />
+      <workItem from="1548505536809" duration="2570000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13130000" />
+    <option name="totallyTimeSpent" value="13185000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -328,14 +331,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/HeroSuperLight.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="401">
+          <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
           <folding>
-            <marker date="1548509009101" expanded="true" signature="63:730" ph="{...}" />
-            <marker date="1548509009101" expanded="true" signature="219:285" ph="{...}" />
-            <marker date="1548509009101" expanded="true" signature="343:723" ph="{...}" />
-            <marker date="1548509009101" expanded="true" signature="394:488" ph="{...}" />
-            <marker date="1548509009101" expanded="true" signature="559:717" ph="{...}" />
+            <marker date="1548513019853" expanded="true" signature="63:805" ph="{...}" />
+            <marker date="1548513019853" expanded="true" signature="219:285" ph="{...}" />
+            <marker date="1548513019853" expanded="true" signature="343:798" ph="{...}" />
+            <marker date="1548513019853" expanded="true" signature="394:427" ph="{...}" />
+            <marker date="1548513019853" expanded="true" signature="498:656" ph="{...}" />
+            <marker date="1548513019853" expanded="true" signature="698:792" ph="{...}" />
           </folding>
         </state>
       </provider>
