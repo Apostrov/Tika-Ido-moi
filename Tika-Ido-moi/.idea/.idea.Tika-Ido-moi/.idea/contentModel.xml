@@ -6,6 +6,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="DepthSortByY.cs" t="Include" />
+          <e p="DepthSortByZ.cs" t="Include" />
           <e p="HeroInput.cs" t="Include" />
           <e p="HeroSuperLight.cs" t="Include" />
         </e>
