@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8244984992025693250}
   - component: {fileID: 2005394551498877891}
   - component: {fileID: 2807873665275111160}
+  - component: {fileID: 7536188620169721024}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7321842450832797403}
-  m_LocalRotation: {x: -0, y: -0, z: 0.25324732, w: 0.9674016}
+  m_LocalRotation: {x: 0, y: 0, z: 0.2532514, w: 0.9674005}
   m_LocalPosition: {x: 1.92, y: 5.13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -119,3 +120,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a42960df4ccdf4c4fb5e3b8f8d8d1eb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!136 &7536188620169721024
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7321842450832797403}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 1.54
+  m_Height: 2.46
+  m_Direction: 0
+  m_Center: {x: 0.24, y: -0.02, z: 0}
