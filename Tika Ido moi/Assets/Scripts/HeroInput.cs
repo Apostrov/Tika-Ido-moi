@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(CharacterController))]
 [AddComponentMenu("Control Script/FPS Input")]
 public class HeroInput : MonoBehaviour
 {
     public float speed = 6.0f;
+    
     private CharacterController _characterController;
     private Animator _animator;
+    
 
     private void Start()
     {
@@ -33,4 +34,5 @@ public class HeroInput : MonoBehaviour
         movement = transform.TransformDirection(movement);
         return movement;
     }
+
 }
