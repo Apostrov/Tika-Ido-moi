@@ -7,7 +7,9 @@ public class DoorOpen : MonoBehaviour
     private bool _showGUI;
     private Animator _animator;
     private BoxCollider _boxCollider;
+    
     public GameObject hero;
+    public bool isClosed = false;
     
     private void Start()
     {
@@ -32,7 +34,15 @@ public class DoorOpen : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            _animator.SetBool("Open", !_animator.GetBool("Open"));
+            if (isClosed)
+            {
+                // closed sound
+            }
+            else
+            {
+                _animator.SetBool("Open", !_animator.GetBool("Open"));
+            }
+            
         }
     }
 

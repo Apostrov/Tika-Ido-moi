@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1161719330}
   - component: {fileID: 1161719329}
   - component: {fileID: 1161719328}
+  - component: {fileID: 8409779980547917408}
   m_Layer: 0
   m_Name: DoorReversed
   m_TagString: Untagged
@@ -26,7 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1161719326}
-  m_LocalRotation: {x: -0, y: -0, z: -0.23960108, w: 0.97087145}
+  m_LocalRotation: {x: 0, y: 0, z: -0.2396011, w: 0.97087145}
   m_LocalPosition: {x: -2.7599993, y: -4.88, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -106,3 +107,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a42960df4ccdf4c4fb5e3b8f8d8d1eb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8409779980547917408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161719326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7d7b28db0c20804b8a7b227dbdee58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hero: {fileID: 0}
+  isClosed: 1
