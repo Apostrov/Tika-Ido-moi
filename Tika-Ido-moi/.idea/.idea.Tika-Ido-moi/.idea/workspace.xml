@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="433a844e-1509-4ac8-9328-0e8ba40a722b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tika-Ido-moi/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tika-Ido-moi/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tika-Ido-moi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tika-Ido-moi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/Wall (2).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pictures/Wall (2).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Hero.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Hero.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +28,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/DepthSortByY.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -44,6 +42,22 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/HeroSuperLight.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+              <folding>
+                <marker date="1548486230786" expanded="true" signature="63:647" ph="{...}" />
+                <marker date="1548486230786" expanded="true" signature="196:253" ph="{...}" />
+                <marker date="1548486230786" expanded="true" signature="311:640" ph="{...}" />
+                <marker date="1548486230786" expanded="true" signature="362:418" ph="{...}" />
+                <marker date="1548486230786" expanded="true" signature="466:625" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -51,12 +65,14 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HeroInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HeroSuperLight.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DepthSortByY.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/HeroInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HeroSuperLight.cs" />
       </list>
     </option>
   </component>
@@ -132,12 +148,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548479573373</updated>
-      <workItem from="1548479588899" duration="1864000" />
+      <workItem from="1548479588899" duration="3191000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1864000" />
+    <option name="totallyTimeSpent" value="3191000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -156,13 +172,13 @@
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Captures" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Performance Profiler" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.3297587" />
       <window_info anchor="bottom" id="NuGet" />
       <window_info anchor="bottom" id="Logcat" />
       <window_info anchor="bottom" id="Unit Tests" />
@@ -223,6 +239,20 @@
             <marker date="1548449210000" expanded="false" signature="6:78" ph="..." />
             <marker date="1548449210000" expanded="true" signature="178:407" ph="{...}" />
             <marker date="1548449210000" expanded="true" signature="252:405" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HeroSuperLight.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding>
+            <marker date="1548486230786" expanded="true" signature="63:647" ph="{...}" />
+            <marker date="1548486230786" expanded="true" signature="196:253" ph="{...}" />
+            <marker date="1548486230786" expanded="true" signature="311:640" ph="{...}" />
+            <marker date="1548486230786" expanded="true" signature="362:418" ph="{...}" />
+            <marker date="1548486230786" expanded="true" signature="466:625" ph="{...}" />
           </folding>
         </state>
       </provider>
