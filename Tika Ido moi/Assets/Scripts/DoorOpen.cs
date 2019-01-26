@@ -8,7 +8,7 @@ public class DoorOpen : MonoBehaviour
     private Animator _animator;
     private BoxCollider _boxCollider;
     
-    public GameObject hero;
+    // public GameObject hero;
     public bool isClosed = false;
     
     private void Start()
