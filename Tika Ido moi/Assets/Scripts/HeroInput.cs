@@ -8,10 +8,12 @@ public class HeroInput : MonoBehaviour
 {
     public float speed = 6.0f;
     private CharacterController _characterController;
+    private Animator _animator;
 
     private void Start()
     {
         _characterController = GetComponent<CharacterController>();
+        _animator = GetComponentInChildren<Animator>();
     }
 
     private void Update()
@@ -26,6 +28,7 @@ public class HeroInput : MonoBehaviour
         float deltaY = Input.GetAxis("Vertical") * speed;
 
         var movement = new Vector3(deltaX, deltaY, 0);
+        _animator.SetTrigger(movement == Vector3.zero ? "Stop" : "Walk");
         movement = Vector3.ClampMagnitude(movement, speed) * Time.deltaTime;
         movement = transform.TransformDirection(movement);
         return movement;

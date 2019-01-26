@@ -13,12 +13,7 @@ public class HeroSuperLight : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            
-        }
-        
+    {   
         if (blackHole.transform.localScale.x > _orginScale.x)
         {
             var speed = 1 / decreasingSpeed * Time.deltaTime;
