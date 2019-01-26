@@ -6,6 +6,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="AudioPlay.cs" t="Include" />
+          <e p="BookShelfActivate.cs" t="Include" />
           <e p="DepthSortByY.cs" t="Include" />
           <e p="DoorOpen.cs" t="Include" />
           <e p="Follow.cs" t="Include" />
