@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48566278-244d-49e3-b6c4-29d5d149305a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tika Ido moi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tika Ido moi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Wall2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Wall2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="48566278-244d-49e3-b6c4-29d5d149305a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +40,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Follow.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -54,6 +49,22 @@
                 <marker date="1548506599655" expanded="true" signature="6:44" ph="..." />
                 <marker date="1548506599655" expanded="true" signature="82:588" ph="{...}" />
                 <marker date="1548506599655" expanded="true" signature="187:586" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/HeroSuperLight.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+              <folding>
+                <marker date="1548509009101" expanded="true" signature="63:730" ph="{...}" />
+                <marker date="1548509009101" expanded="true" signature="219:285" ph="{...}" />
+                <marker date="1548509009101" expanded="true" signature="343:723" ph="{...}" />
+                <marker date="1548509009101" expanded="true" signature="394:488" ph="{...}" />
+                <marker date="1548509009101" expanded="true" signature="559:717" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -89,6 +100,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HeroInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/31353B3F-2D2E-4345-95CB-FE07FBEC4072/b8/f9dc0508/Physics.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DC10DD4A-D9F3-4AA9-8E69-1E49A48C7111/b5/65cef3ff/Renderer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HeroSuperLight.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MovingObject.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -98,6 +110,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DepthSortByY.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HeroInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Follow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HeroSuperLight.cs" />
       </list>
     </option>
   </component>
@@ -172,12 +185,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548436358595</updated>
       <workItem from="1548436374362" duration="10615000" />
-      <workItem from="1548505536809" duration="1231000" />
+      <workItem from="1548505536809" duration="1908000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11846000" />
+    <option name="totallyTimeSpent" value="12523000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -307,6 +320,20 @@
             <marker date="1548506599655" expanded="true" signature="6:44" ph="..." />
             <marker date="1548506599655" expanded="true" signature="82:588" ph="{...}" />
             <marker date="1548506599655" expanded="true" signature="187:586" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HeroSuperLight.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <marker date="1548509009101" expanded="true" signature="63:730" ph="{...}" />
+            <marker date="1548509009101" expanded="true" signature="219:285" ph="{...}" />
+            <marker date="1548509009101" expanded="true" signature="343:723" ph="{...}" />
+            <marker date="1548509009101" expanded="true" signature="394:488" ph="{...}" />
+            <marker date="1548509009101" expanded="true" signature="559:717" ph="{...}" />
           </folding>
         </state>
       </provider>
