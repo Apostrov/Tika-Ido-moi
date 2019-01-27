@@ -6,6 +6,7 @@ using UnityEngine;
 public class HeroInput : MonoBehaviour
 {
     public float speed = 6.0f;
+    public GameObject cam;
     
     private CharacterController _characterController;
     private Animator _animator;
@@ -68,6 +69,7 @@ public class HeroInput : MonoBehaviour
         }
         else
         {
+            cam.GetComponent<ShakeBehavior>().TriggerShake();
             _stoneIndex = 0;
         }
     }

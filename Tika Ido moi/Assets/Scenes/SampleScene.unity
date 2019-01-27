@@ -4419,6 +4419,7 @@ GameObject:
   - component: {fileID: 228064280}
   - component: {fileID: 228064279}
   - component: {fileID: 228064283}
+  - component: {fileID: 228064284}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: Untagged
@@ -4600,6 +4601,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &228064284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228064278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ed260f0ae4709f44b14ebe4eee295dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &228881431
 GameObject:
   m_ObjectHideFlags: 0
@@ -14925,6 +14938,16 @@ PrefabInstance:
       propertyPath: hero
       value: 
       objectReference: {fileID: 926290230}
+    - target: {fileID: 3634106087702518773, guid: 6b4a2c232d30f81419480579cdaff52a,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.80628586
+      objectReference: {fileID: 0}
+    - target: {fileID: 3634106087702518773, guid: 6b4a2c232d30f81419480579cdaff52a,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.12260246
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b4a2c232d30f81419480579cdaff52a, type: 3}
 --- !u!1 &962368760
@@ -34613,6 +34636,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 926290232, guid: 09e5ed717f9caa54e92003a0e2adb505, type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 228064278}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09e5ed717f9caa54e92003a0e2adb505, type: 3}
 --- !u!1001 &3522698626323814003
