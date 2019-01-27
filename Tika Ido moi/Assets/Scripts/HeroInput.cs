@@ -21,7 +21,7 @@ public class HeroInput : MonoBehaviour
     {
         _characterController = GetComponent<CharacterController>();
         _animator = GetComponentInChildren<Animator>();
-        _stones = 24;
+        _stones = 240;
         _stoneId = new[] {3, 1, 2, 4};
         _stoneIndex = 0;
         _audio = GetComponent<AudioSource>();
@@ -77,12 +77,12 @@ public class HeroInput : MonoBehaviour
             {
                 _stoneIndex = 0;
             }
+
+            return true;
         }
-        else
-        {
-            cam.GetComponent<ShakeBehavior>().TriggerShake();
-            _stoneIndex = 0;
-        }
+
+        cam.GetComponent<ShakeBehavior>().TriggerShake();
+        _stoneIndex = 0;
 
         return false;
     }
