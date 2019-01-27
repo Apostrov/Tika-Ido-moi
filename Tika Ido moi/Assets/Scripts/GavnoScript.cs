@@ -44,7 +44,7 @@ public class GavnoScript : MonoBehaviour
         {
             if (isTake)
             {
-                GUI.Label(new Rect(40, 20, 255, 50), "Press E to TAKE one stone!");
+                GUI.Label(new Rect(40, 20, 255, 50), "Press E to GIVE one stone!");
             }
             else
             {

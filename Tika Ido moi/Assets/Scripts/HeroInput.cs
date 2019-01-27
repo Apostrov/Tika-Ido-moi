@@ -70,6 +70,5 @@ public class HeroInput : MonoBehaviour
         {
             _stoneIndex = 0;
         }
-        Debug.Log(_stoneIndex);
     }
 }
