@@ -24,7 +24,6 @@ public class PauseMenu : MonoBehaviour {
     }
 
     public void Resume(){
-        Debug.Log("Salavat");
         pauseUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPause = false;
@@ -33,7 +32,6 @@ public class PauseMenu : MonoBehaviour {
     }
 
     void Pause(){
-        Debug.Log("Nigma");
         pauseUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPause = true;
