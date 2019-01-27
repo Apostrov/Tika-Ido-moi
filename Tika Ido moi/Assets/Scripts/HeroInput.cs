@@ -7,11 +7,12 @@ public class HeroInput : MonoBehaviour
 {
     public float speed = 6.0f;
     public GameObject cam;
-    
+
     private CharacterController _characterController;
     private Animator _animator;
     private AudioSource _audio;
-    
+    private SpriteRenderer _spriteRenderer;
+
     private int _stones;
     private int[] _stoneId;
     private int _stoneIndex;
@@ -24,6 +25,7 @@ public class HeroInput : MonoBehaviour
         _stoneId = new[] {3, 1, 2, 4};
         _stoneIndex = 0;
         _audio = GetComponent<AudioSource>();
+        _spriteRenderer = GetComponentInChildren<SpriteRenderer>();
     }
 
     private void Update()
@@ -36,6 +38,14 @@ public class HeroInput : MonoBehaviour
     {
         float deltaX = Input.GetAxis("Horizontal") * speed;
         float deltaY = Input.GetAxis("Vertical") * speed;
+        if (deltaX > 0)
+        {
+            _spriteRenderer.flipX = false;
+        }
+        else
+        {
+            _spriteRenderer.flipX = true;
+        }
 
         var movement = new Vector3(deltaX, deltaY, 0);
         _animator.SetTrigger(movement == Vector3.zero ? "Stop" : "Walk");
@@ -48,7 +58,7 @@ public class HeroInput : MonoBehaviour
     {
         _stones++;
     }
-    
+
     public bool TakeStone()
     {
         if (_stones < 1)
@@ -57,14 +67,15 @@ public class HeroInput : MonoBehaviour
         return true;
     }
 
-    public void GiveId(int id)
+    public bool GiveId(int id)
     {
         if (_stoneId[_stoneIndex] == id)
         {
             _stoneIndex++;
-            if (_stoneIndex == _stoneId.Length)
+            _audio.Play();
+            if (_stoneIndex >= _stoneId.Length)
             {
-                _audio.Play();
+                _stoneIndex = 0;
             }
         }
         else
@@ -72,5 +83,7 @@ public class HeroInput : MonoBehaviour
             cam.GetComponent<ShakeBehavior>().TriggerShake();
             _stoneIndex = 0;
         }
+
+        return false;
     }
 }

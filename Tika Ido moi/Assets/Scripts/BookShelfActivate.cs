@@ -17,10 +17,21 @@ public class BookShelfActivate : MonoBehaviour
 
     private void OnGUI()
     {
-        if (_showGUI && !shelfSaw)
+        GUIStyle ms = new GUIStyle(GUI.skin.label);
+        ms.fontSize = 32;
+        if (_showGUI)
         {
-            GUI.Label(new Rect(40, 20, 255, 50), "Press E to see the hidden path");
+            if (shelfSaw)
+            {
+                GUI.Label(new Rect(40, 20, 10000, 5000), "Some door opened", ms);
+            }
+            else
+            {
+                GUI.Label(new Rect(40, 20, 10000, 5000), "Press E to see the hidden path", ms);
+            }
+            
         }
+        
         
     }
 

@@ -40,15 +40,17 @@ public class GavnoScript : MonoBehaviour
 
     private void OnGUI()
     {
+        GUIStyle ms = new GUIStyle(GUI.skin.label);
+        ms.fontSize = 32;
         if (_showGUI)
         {
             if (isTake)
             {
-                GUI.Label(new Rect(40, 20, 255, 50), "Press E to GIVE one stone!");
+                GUI.Label(new Rect(40, 20, 1000, 500), "Press E to GIVE one stone!", ms);
             }
             else
             {
-                GUI.Label(new Rect(40, 20, 255, 50), "Press E to get ONE STONE!");
+                GUI.Label(new Rect(40, 20, 1000, 500), "Press E to get ONE STONE!");
             }
             
         }

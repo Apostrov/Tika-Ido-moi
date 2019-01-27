@@ -23,7 +23,9 @@ public class DoorOpen : MonoBehaviour
     {
         if (_showGUI)
         {
-            GUI.Label(new Rect(40, 20, 255, 50), "Press E to open door");
+            GUIStyle ms = new GUIStyle(GUI.skin.label);
+            ms.fontSize = 32;
+            GUI.Label(new Rect(40, 20, 1000, 500), "Press E to open door", ms);
         }
     }
 
