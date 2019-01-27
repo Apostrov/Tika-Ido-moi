@@ -57,4 +57,9 @@ public class DoorOpen : MonoBehaviour
     {
         _boxCollider.enabled = !_animator.GetBool("Open");
     }
+
+    public void OpenDoor()
+    {
+        isClosed = false;
+    }
 }

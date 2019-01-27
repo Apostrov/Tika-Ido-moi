@@ -10,6 +10,7 @@
           <e p="DepthSortByY.cs" t="Include" />
           <e p="DoorOpen.cs" t="Include" />
           <e p="Follow.cs" t="Include" />
+          <e p="GavnoScript.cs" t="Include" />
           <e p="HeroInput.cs" t="Include" />
           <e p="HeroSuperLight.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />

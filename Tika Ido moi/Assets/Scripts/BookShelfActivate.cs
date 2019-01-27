@@ -5,6 +5,8 @@ using UnityEngine;
 public class BookShelfActivate : MonoBehaviour
 {
     public bool shelfSaw = false;
+    public GameObject door;
+    
     private bool _showGUI = false;
     private AudioSource _audio;
 
@@ -40,6 +42,7 @@ public class BookShelfActivate : MonoBehaviour
             if (!shelfSaw)
             {
                 _audio.Play();
+                door.GetComponent<DoorOpen>().OpenDoor();
             }
             shelfSaw = true;
         }
